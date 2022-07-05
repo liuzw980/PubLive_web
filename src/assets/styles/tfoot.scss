@@ -1,0 +1,55 @@
+#conternewbox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.disable-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Editionheart {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+// ::v-deep el-select-dropdown {
+//     position: absolute !important;
+//     top: 35px !important;
+//     left: 0px;
+// }
+.image_solar,
+.image-slot {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F5F7FA;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #C0C4CC;
+    vertical-align: middle;
+}
+
+ul {
+    // margin-left: 200px;
+    .el-select-dropdown__item {
+        &:hover {
+            background-color: $them-color!important;
+            color: #fff !important;
+        }
+    }
+}
+
+ul {
+    margin-left: 200px;
+    .el-select-dropdown__item.selected {
+        color: $them-color-4;
+    }
+}
